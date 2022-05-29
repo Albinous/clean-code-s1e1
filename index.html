@@ -2,18 +2,31 @@
 <html>
 <head>
   <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="style.css"
+      media="screen"
+      charset="utf-8">
 </head>
 <body class="wrapper">
   <div class="header">
-    <img src="./eisenhower-matrix.jpg" class="header-img">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <img 
+        src="./eisenhower-matrix.jpg"
+        class="header-img">
+    <a
+        href="https://goal-life.com/page/method/matrix-eisenhower"
+        class="more-inf">Want more details?</a>
   </div>
   <div class="centered-main-page-element">
     <h3 class="main-title main-new__task-title">Add item</h3>
     <div class="task-row-wrapper">
-      <input id="new-task" class="main-new__task-input" type="text">
+      <input 
+          id="new-task" 
+          class="main-new__task-input" 
+          type="text">
       <button class="btn">Add</button>
     </div>
     <h3 class="main-title">Todo</h3>
@@ -36,11 +49,18 @@
     <h3 class="main-title">Completed</h3>
     <ul id="completed-tasks" class="list">
       <li class="list-item">
-        <input type="checkbox" class="list-item__checkbox" checked>
+        <input 
+            type="checkbox"
+            class="list-item__checkbox"
+            checked>
         <label class="list-item__label completed-tasks__label">See the Doctor</label>
         <input type="text" class="list-item__input">
         <button class="edit btn">Edit</button>
-        <button class="delete btn"><img class="list-item__img" src="./remove.svg"></button>
+        <button class="delete btn">
+          <img 
+              class="list-item__img"
+              src="./remove.svg">
+        </button>
       </li>
     </ul>
   </div>
